@@ -1,0 +1,155 @@
+
+.navigation ul {
+  justify-content: center;
+}
+.navigation { 
+    list-style-type: none;
+      color: aliceblue;
+      background-color: rgb(17, 30, 57);
+      font-size: 24px;
+      height: 60px;
+      text-decoration: none;
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+    
+
+  
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+.navigation {
+  background-color: #06192f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation ul li {
+  position: relative;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  background: #f1d44f;
+  color: rgb(5, 21, 40);
+}
+
+
+.navigation ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #06192f;
+  min-width: 200px;
+  flex-direction: column;
+}
+
+.navigation ul li ul li {
+  width: 100%;
+}
+
+.navigation ul li:hover ul {
+  display: block;
+}
+
+h2{ font-family: "fredoka", sans-serif;}
+
+i{
+  margin-right: 8px;
+  margin-left: 5px;
+}
+
+h1{ text-shadow: 2px 2px rgb(67, 58, 48);}
+ 
+.Container1{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  padding: 25px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 40px auto; 
+  background-color: rgb(212, 193, 253);
+  height: 425px;
+  align-self: center;
+  color: #1c446e;
+}
+  .textkiri1 { 
+  padding: 15px;
+   line-height: 1.7;
+}
+
+ 
+.Container2{
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 40px auto; 
+  background-color: #725da4;
+  height: 660px;
+  align-self: center;
+  color: #faf8ff;
+
+}
+  .tekskiri2 { 
+  padding: 15px;
+   line-height: 1.7;
+}
+.tekskanan2 { 
+ line-height: 1.7;
+}
+
+h2 { margin-top: 0px;}
+p { margin-top: 11px;
+margin-bottom: 0px;}
+
+.img{
+    transition: transform .4s;
+}
+
+.img:hover{
+    transform: scale(1.03);
+}
+
+
+ 
+.Container3{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  padding: 25px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 40px auto; 
+  background-color: rgb(37, 29, 57);
+  height: 425px;
+  align-self: center;
+  color: #dfbedd;
+}
+ 
+.textkanan3 { 
+ line-height: 1.7;
+  padding: 15px;
+}
